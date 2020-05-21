@@ -1,5 +1,3 @@
-using System;
-
 namespace PhoneConcept.Models
 {
     public class ErrorViewModel

@@ -24,11 +24,14 @@ namespace PhoneConcept.Models
         [Display(Name = "Valid Number")]
         public bool Valid { get; set; }
 
+        [Display(Name = "Has Extension")]
+        public bool HasExtension { get; set; }
+
         [Display(Name = "Validated Type")]
         public string PhoneNumberType { get; set; }
 
-        [Display(Name = "Region Code")]
-        public string RegionCode { get; set; }
+        [Display(Name = "Country Code")]
+        public string CountryCode { get; set; }
 
         [Display(Name = "International Dialing Format")]
         public string PhoneNumberFormatted { get; set; }
